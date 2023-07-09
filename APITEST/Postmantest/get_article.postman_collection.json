@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "bd835225-2d90-45cb-82b6-c7cb6d38840a",
+		"name": "get_article",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27384148"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/APITEST/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APITEST",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "cb37e2cb-0a42-484e-b1c0-6e500c1e67bf",
+		"name": "update_article",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27384148"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\":\"4\"\r\n  \"title\":\"fahim\"\r\n  \"body\": \"mamie\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost/APITEST/articles/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APITEST",
+						"articles",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

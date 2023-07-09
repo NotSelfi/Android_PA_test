@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "89295042-a3c5-404d-a8c5-90238bc8201a",
+		"name": "create_article",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27384148"
+	},
+	"item": [
+		{
+			"name": "http://localhost/APITEST/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"fahim\",\r\n  \"body\": \"betterki\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost/APITEST/articles/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APITEST",
+						"articles",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
